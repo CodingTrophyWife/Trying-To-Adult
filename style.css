@@ -1,0 +1,88 @@
+
+h1 {
+   font-family: 'Sedgwick Ave Display', cursive;
+  }
+
+.lead {
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+
+#currentDay {
+  font-family: 'Sedgwick Ave Display', cursive;
+}
+header {
+  background-image: url(https://m.media-amazon.com/images/W/IMAGERENDERING_521856-T1/images/I/A1OVodPDHMS._AC_SX466_.jpg);
+  text-align: center;
+  color: yellow;
+}
+textarea {
+    background: transparent;
+    border: none;
+    resize: none;
+    color: #000000;
+    border-left: 1px solid black;
+    padding: 10px;
+    
+  }
+  
+.description {
+    white-space: pre-wrap;
+  }
+  
+.time-block {
+    border-radius: 15px;
+  }
+  
+.row {
+    border-top: 1px solid black;
+  }
+  
+.hour {
+    background-color:yellow;
+    color: #000000;
+    border-top: 1px solid #000000;
+    text-align: center;
+ 
+  }
+  
+.past {
+    background-color: #fac5c5;
+    color: white;
+  }
+  
+.present {
+    background-color: #c1fab6;
+    color: white;
+  }
+  
+.future {
+    background-color: #a5c2f8;
+    color: white;
+  }
+  
+.saveBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: yellow;
+    color: black;
+  }
+  
+.saveBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+
+  .deleteBtn {
+    border-left: 1px solid black;
+    border-top-right-radius: 15px;
+    border-bottom-right-radius: 15px;
+    background-color: red;
+    color: white;
+  }
+  
+.deleteBtn i:hover {
+    font-size: 20px;
+    transition: all 0.3s ease-in-out;
+  }
+  
